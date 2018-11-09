@@ -11,7 +11,6 @@ module.exports = {
     "Water" : ["Alcohol", "Ice", "Quicksilver", "Swamp" ,"Water"],
     "Human" : ["Alcoholic", "Assasin", "Corpse", "Human", "Hunter", "Warrior", "Wizard"],
     "Vehicles" : ["Boat", "Frigate", "Ship", "Steamship"],
-    "BuildMat" : ["Bricks". "Cement", "Ceramics", "Clothing", "Concrete", "Fabric", "Field", " Wood"],
+    "BuildMat" : ["Bricks", "Cement", "Ceramics", "Clothing", "Concrete", "Fabric", "Field", " Wood"],
     "ToolsHouses" : ["Boiler", "Tools", "SteamEngine", "Weapon", "House", "Hut", "PoisonedWeapon", "Skyscraper"]
-    
 };
