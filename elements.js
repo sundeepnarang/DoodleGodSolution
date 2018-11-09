@@ -8,9 +8,9 @@ module.exports = {
     "Animals" : ["Fish", "Beast", "Lizard", "Bird", "Snake", "Dinosaur", "Turtle", "Dolphin", "Whale", "DomesticAnimal"],
     "FoodEtc" : ["Dough","Feather", "Wheat", "Wool", "Flour", "Meat", "Milk"],
     "Earth" : ["Clay", "Metal", "Earth", "Sand", "Fertilizer", "Stone", "Glass", "Limestone"],
-    "Water" : ["Ice", "Quicksilver", "Swamp" ,"Water"],
-    "Human" : ["Assasin", "Corpse", "Human", "Hunter", "Warrior", "Wizard"],
-    "Vehicles" : ["Boat", "Ship", "Steamship"],
+    "Water" : ["Alcohol", "Ice", "Quicksilver", "Swamp" ,"Water"],
+    "Human" : ["Alcoholic", "Assasin", "Corpse", "Human", "Hunter", "Warrior", "Wizard"],
+    "Vehicles" : ["Boat", "Frigate", "Ship", "Steamship"],
     "BuildMat" : ["Bricks". "Cement", "Ceramics", "Clothing", "Concrete", "Fabric", "Field", " Wood"],
     "ToolsHouses" : ["Boiler", "Tools", "SteamEngine", "Weapon", "House", "Hut", "PoisonedWeapon", "Skyscraper"]
     
