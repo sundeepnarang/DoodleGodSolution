@@ -1,19 +1,18 @@
-const elements = require("./initElements");
+const elements = require("./elements");
 const fs = require("fs");
 
 const allElemsArray = Object.keys(elements).reduce((a,b)=>{
     return a.concat(elements[b]);
 },[]);
 
-
+allElemsArray.sort();
 const combos = {};
 
 for(let i =0;i<allElemsArray.length;i++){
     for(let j = i;j<allElemsArray.length;j++){
-        if(!combos[allElemsArray[i]]){
-            combos[allElemsArray[i]] = {};
-        }
-        combos[allElemsArray[i]][allElemsArray[j]] = null;
+        const keys = [allElemsArray[i],allElemsArray[j]];
+        keys.sort();
+        combos[keys.join("|")] = null;
     }
 }
 
